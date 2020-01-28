@@ -243,7 +243,7 @@ ul{
      margin-top: 100px;
  }
  section.cms-boxes .cms-boxes-outer {
-    text-align: left;
+    text-align: center;
     margin-bottom: 6px;
     padding: 0 3px;
   }
@@ -256,7 +256,7 @@ ul{
     color: black;
   }
   section.cms-boxes .cms-features {
-    background-color: rgb(251, 152, 228);
+    background-color: rgb(250, 204, 185);
   }
   section.cms-boxes .boxes-align {
     display: table-cell;
@@ -284,14 +284,14 @@ ul{
   section.cms-boxes .cms-documentation {
     background-color: rgb(155, 243, 237);
   }
-  section.cms-boxes .cms-scalability {
+  /* section.cms-boxes .cms-scalability {
     background: url(https://www.solodev.com/assets/tiles/scalability.jpg) 0 0 no-repeat;
     background-size: cover;
   }
   section.cms-boxes .cms-built {
     background: url(https://www.solodev.com/assets/tiles/customer-service.jpg) 0 0 no-repeat;
-    background-size: cover;
-  }
+    background-size: cover; */
+  /* } */
   section.cms-boxes .cms-security, section.cms-boxes .cms-documentation {
     background-color:#FACCB9;
   }
@@ -302,6 +302,7 @@ ul{
     list-style: none;
     text-align: center;
     font-weight: bold;
+    text-decoration:underline; 
 }
 .tiles h2:hover{
     background-color: #BBF17A;
@@ -310,6 +311,12 @@ ul{
 .projects ul li:hover{
     background-color: #BBF17A;
 }
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
 /* END PROJECTS PAGE */
 
 
@@ -350,9 +357,6 @@ ul{
 .resume{
     margin-top: 100px;
 }
-.resume ul li{
-    list-style: disc;
-}
 
 .resume{
     font-size: small;
@@ -362,9 +366,11 @@ ul{
     list-style: none;
 }
 
-#keySkills{
-    box-sizing: border-box solid black;
+#keySkills, #education{
+    list-style: none;
+    text-align: center;
 }
+
 /* END RESUME PAGE */
 
 /* START HOME PAGE */

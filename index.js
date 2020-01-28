@@ -8,6 +8,8 @@ $('#home').click(function(){
     $('.contact').hide()
     $('.resume').hide()
     $('.homePage').show()
+    $('#selfie').hide()
+    $('#goodreads').hide()
 })  
 
   $('#aboutMe').click(function(){
@@ -26,6 +28,8 @@ $('#home').click(function(){
       $('.resume').hide()
       $('.aboutContent').hide()
       $('.homePage').hide()
+      $('#selfie').hide()
+    $('#goodreads').hide()
   })
   
   $('#contact').click(function(){
@@ -34,6 +38,8 @@ $('#home').click(function(){
       $('.aboutContent').hide()
       $('.projects').hide()
       $('.homePage').hide()
+      $('#selfie').hide()
+    $('#goodreads').hide()
   })
   
   $('#resume').click(function(){
@@ -42,6 +48,8 @@ $('#home').click(function(){
       $('.projects').hide()
       $('.contact').hide()
       $('.homePage').hide()
+      $('#selfie').hide()
+    $('#goodreads').hide()
   })
 
   
