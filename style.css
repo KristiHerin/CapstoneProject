@@ -1,7 +1,7 @@
 *{
     font-family: 'Poppins', sans-serif;
 }
-#projectPage{
+#projectPage, #contactPage, #resumePage, #aboutPage{
     display: none;
 }
 /* START HAMBURGER BAR */
@@ -27,14 +27,14 @@ header{
     padding: 0;
     list-style: none;
     overflow: hidden;
-    background-color: #rgb(254, 192, 219);
+    background-color: rgb(254, 192, 219);
     color: black;
 }
 
 .header li a {
     display: block;
     padding: 20px 20px;
-    border-right: 1px solid #rgb(254, 192, 219);
+    border-right: 1px solid rgb(254, 192, 219);
     text-decoration: none;
     color: black;
 }
@@ -321,11 +321,10 @@ ul{
 
 .about img{
     border: rgb(251, 152, 228) solid 5px;
-    -webkit-filter: saturate(75%);
     box-shadow: 1px 1px 1px 1px black;
 }
 
-#selfie{
+.about, #selfie{
     text-align: center;
     margin-top: 10px;    
 }
@@ -338,7 +337,7 @@ ul{
     text-align: center;
     font-weight: bolder;
 }
-.goodreads{
+#goodreads{
     margin-top: 10px;
     border: 2px solid rgb(251, 152, 228);
     border-radius:5px; 
