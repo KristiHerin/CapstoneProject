@@ -27,14 +27,14 @@ header{
     padding: 0;
     list-style: none;
     overflow: hidden;
-    background-color: rgb(254, 192, 219);
+    background-color: rgb(251, 152, 228);
     color: black;
 }
 
 .header li a {
     display: block;
     padding: 20px 20px;
-    border-right: 1px solid rgb(254, 192, 219);
+    border-right: 1px solid rgb(251, 152, 228);
     text-decoration: none;
     color: black;
 }
@@ -149,7 +149,6 @@ body{
     background: #58EAFD;
     color:black;
     line-height: 1.6;
-    font-family: Poppins;
     padding: 1em;
 }
 .container{
@@ -376,4 +375,17 @@ ul{
 /* START HOME PAGE */
 .homePage{
     margin-top: 100px;
+}
+ #welcome{
+    color:rgb(251, 152, 228);
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+#homeContent{
+    text-align: center;
+    margin-top: 35px;
 }
