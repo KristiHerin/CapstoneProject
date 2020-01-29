@@ -1,5 +1,5 @@
 $(document).ready(function(){
-
+  renderPhotos();
 //     $('#home').show()
 //   $('.aboutContent .projects .contact .resume').hide()
 $('#home').click(function(){
@@ -10,7 +10,8 @@ $('#home').click(function(){
     $('.homePage').show()
     $('#selfie').hide()
     $('#goodreads').hide()
-    renderPhotos();
+    $('#jsonPics').show()
+    
 })  
 
   $('#aboutMe').click(function(){
@@ -21,6 +22,7 @@ $('#home').click(function(){
       $('.homePage').hide()
       $('#selfie').show()
       $('#goodreads').show()
+      $('#jsonPics').hide()
   })
   
   $('#projects').click(function(){
@@ -31,6 +33,7 @@ $('#home').click(function(){
       $('.homePage').hide()
       $('#selfie').hide()
     $('#goodreads').hide()
+    $('#jsonPics').hide()
   })
   
   $('#contact').click(function(){
@@ -41,6 +44,7 @@ $('#home').click(function(){
       $('.homePage').hide()
       $('#selfie').hide()
     $('#goodreads').hide()
+    $('#jsonPics').hide()
   })
   
   $('#resume').click(function(){
@@ -51,7 +55,19 @@ $('#home').click(function(){
       $('.homePage').hide()
       $('#selfie').hide()
     $('#goodreads').hide()
+    $('#jsonPics').hide()
   })
+
+  $('#contactHome').click(function(){
+    $('.resume').show()
+    $('.aboutContent').hide()
+    $('.projects').hide()
+    $('.contact').hide()
+    $('.homePage').hide()
+    $('#selfie').hide()
+  $('#goodreads').hide()
+  $('#jsonPics').hide()
+})
 
   
   }) //END READY FUNCTION
