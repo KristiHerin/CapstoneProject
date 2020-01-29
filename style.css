@@ -321,12 +321,13 @@ ul{
 
 /* BEGIN ABOUT ME PAGE */
  .aboutContent {
-    padding-top: 100px;
+    padding-top: 75px;
 }
 
 #selfie img{
     border: rgb(251, 152, 228) solid 5px;
     box-shadow: 1px 1px 1px 1px black;
+    margin-top: 15px;
 }
 
 .aboutContent, #selfie{
@@ -343,11 +344,15 @@ ul{
     font-weight: bolder;
 }
 #goodreads{
-    margin-top: 10px;
+    margin-top: 25px;
     border: 2px solid rgb(251, 152, 228);
     border-radius:5px; 
     padding: 0px 5px 0px 5px;
 
+}
+
+#greeting{
+    font-size: 2em;
 }
 
 /* END ABOUT ME */
@@ -396,4 +401,12 @@ ul{
 
 #homeContent{
     font-size: 1.5em;
+}
+
+/* END HOME PAGE  */
+
+#footer{
+    text-align: center;
+    font-size: small;
+    font-style: italic;
 }
