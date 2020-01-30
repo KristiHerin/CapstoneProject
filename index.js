@@ -80,7 +80,7 @@ function renderPhotos(){
   .then((data) => {
       var builtUpHTML= '<ul>';
       data.forEach((x) => builtUpHTML+= `<li><a href="#" title="${x.description}"><img src="${x.image}
-      " height=150px width=175px/></a></li>`)
+      " height=150px width=175px style="item-align: start"/></a></li>`)
       ;
       builtUpHTML +="</ul>";
       document.getElementById('jsonPics').innerHTML= builtUpHTML;

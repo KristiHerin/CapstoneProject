@@ -354,6 +354,9 @@ ul{
 #greeting{
     font-size: 2em;
 }
+.aboutContent span:hover{
+    cursor: pointer;
+}
 
 /* END ABOUT ME */
 
@@ -391,7 +394,7 @@ ul{
 }
 
 #homeContent{
-    text-align: right;
+    text-align: end;
     margin-top: 35px;
 }
 
@@ -401,6 +404,11 @@ ul{
 
 #homeContent{
     font-size: 1.5em;
+    margin-top: 25px;
+}
+
+#welcome{
+    text-align: end;
 }
 
 /* END HOME PAGE  */
