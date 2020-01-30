@@ -254,9 +254,7 @@ ul{
   section.cms-boxes .cms-boxes-outer .cms-boxes-items p {
     color: black;
   }
-  section.cms-boxes .cms-features {
-    background-color: rgb(250, 204, 185);
-  }
+  
   section.cms-boxes .boxes-align {
     display: table-cell;
     vertical-align: middle;
@@ -266,6 +264,10 @@ ul{
     max-width: 500px;
     margin: 0 auto;
     text-align: center;
+  }
+
+  .laptop{
+      background-color: rgb(187, 241, 122);
   }
   section.cms-boxes .cms-boxes-items h2 {
     font-size: 35px;
@@ -302,13 +304,14 @@ ul{
     text-align: center;
     font-weight: bold;
     text-decoration:underline; 
+    font-size: 1.5em;
 }
 .tiles h2:hover{
-    background-color: #BBF17A;
+    background-color: rgb(251, 152, 228);
 }
 
 .projects ul li:hover{
-    background-color: #BBF17A;
+    background-color: rgb(251, 152, 228);
 }
 
 .container{
@@ -377,7 +380,21 @@ ul{
     list-style: none;
     text-align: center;
 }
+.experience h4{
+    color: rgb(251, 152, 228);
+    font-weight: bold;
 
+}
+
+.resume h3{
+    font-weight: bold;
+    color: rgb(187, 241, 122);
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
 /* END RESUME PAGE */
 
 /* START HOME PAGE */
@@ -385,7 +402,7 @@ ul{
     margin-top: 100px;
 }
  #welcome{
-    color:rgb(251, 152, 228);
+    color:rgb(187, 241, 122);
     text-shadow:
     -1px -1px 0 #000,
     1px -1px 0 #000,
@@ -417,4 +434,5 @@ ul{
     text-align: center;
     font-size: small;
     font-style: italic;
+    margin-top: 20px;
 }
