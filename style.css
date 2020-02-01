@@ -139,14 +139,14 @@ header{
 
 /* START CONTACT FORM */
  .contact {
-    background-color: rgb(155, 243, 237);
+    background-color: #C9E6FF;
 }
 .contact{
     box-sizing: border-box;
     margin-top: 85px;
 }
 body{
-    background: #58EAFD;
+    background: rgb(103, 233, 247);
     color:black;
     line-height: 1.6;
     padding: 1em;
@@ -311,12 +311,15 @@ section.cms-boxes .cms-boxes-outer {
 }
 
 .projects ul li:hover{
-    background-color: rgb(251, 152, 228);
+    background-color:rgb(155, 243, 237);
 }
 
 .container{
     display: flex;
     align-items: center;
+}
+#projectPage span{
+    color: rgb(251, 152, 228);
 }
 
 /* END PROJECTS PAGE */
@@ -364,6 +367,10 @@ section.cms-boxes .cms-boxes-outer {
 /* END ABOUT ME */
 
 /* START RESUME*/
+.btncontainer a:hover{
+    background-color: rgb(251, 152, 228);
+}
+
 .resume{
     margin-top: 100px;
 }
