@@ -15,11 +15,20 @@ a{
 }
 
 header{
-    background-color: rgb(251, 152, 228);
+    background-image: url(Images/lilly2.jpg);
+    /* background-color: rgb(251, 152, 228); */
     box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .1);
     position: fixed;
     width: 100%;
     z-index: 3;
+}
+.logo{
+    color:rgb(20, 56, 214);
+    text-shadow:
+    -1.25px -1.25px 0 #000,
+    1.25px -1.25px 0 #000,
+    -1.25px 1.25px 0 #000,
+    1.25px 1.25px 0 #000;
 }
 
 .header ul{
@@ -27,14 +36,14 @@ header{
     padding: 0;
     list-style: none;
     overflow: hidden;
-    background-color: rgb(251, 152, 228);
+    background-color: rgb(230, 81, 183);
     color: black;
 }
 
 .header li a {
     display: block;
     padding: 20px 20px;
-    border-right: 1px solid rgb(251, 152, 228);
+    border-right: 1px solid rgb(230, 81, 183);
     text-decoration: none;
     color: black;
 }
@@ -168,13 +177,13 @@ ul{
     color: #fff;
 }
 .wrapper{
-    box-shadow: 0 0 20px 0 rgb(251, 152, 228);
+    box-shadow: 0 0 20px 0 rgb(230, 81, 183);
 }
 .wrapper > *{
     padding: 1em;
 }
 .company-info{
-    background: rgb(251, 152, 228);
+    background: rgb(230, 81, 183);
     ;
 }
 .company-info h3, .company-info ul{
@@ -204,12 +213,12 @@ ul{
     border: 1px solid #c9e6ff;
 }
 .contact form button{
-    background: rgb(251, 152, 228);
+    background: rgb(230, 81, 183);
     border: 0;
     text-transform: uppercase;
 }
 .contact form button:hover, .contact form button:focus{
-    background: #BBF17A;
+    background: rgb(180, 237, 111);
     color: black;
     outline:0;
     transition: background-color 2s ease-out;
@@ -217,7 +226,7 @@ ul{
 .alert{
     text-align: center;
     padding: 10px;
-    background: #79c879;
+    background: rgb(180, 237, 111);
     color: #fff;
     margin-bottom: 10px;
     display: none;
@@ -267,7 +276,7 @@ section.cms-boxes .cms-boxes-outer {
   }
 
   .laptop{
-      background-color: rgb(187, 241, 122);
+      background-color: #FACCB9;
   }
   section.cms-boxes .cms-boxes-items h2 {
     font-size: 35px;
@@ -319,7 +328,7 @@ section.cms-boxes .cms-boxes-outer {
     align-items: center;
 }
 #projectPage span{
-    color: rgb(251, 152, 228);
+    color: #E651B7;
 }
 
 /* END PROJECTS PAGE */
@@ -331,7 +340,7 @@ section.cms-boxes .cms-boxes-outer {
 }
 
 #selfie img{
-    border: rgb(251, 152, 228) solid 5px;
+    border: #E651B7 solid 5px;
     box-shadow: 1px 1px 1px 1px black;
     margin-top: 15px;
 }
@@ -351,7 +360,7 @@ section.cms-boxes .cms-boxes-outer {
 }
 #goodreads{
     margin-top: 25px;
-    border: 2px solid rgb(251, 152, 228);
+    border: 2px solid #E651B7;
     border-radius:5px; 
     padding: 0px 5px 0px 5px;
 
@@ -388,14 +397,14 @@ section.cms-boxes .cms-boxes-outer {
     text-align: center;
 }
 .experience h4{
-    color: rgb(251, 152, 228);
+    color: #E651B7;
     font-weight: bold;
 
 }
 
 .resume h3{
     font-weight: bold;
-    color: rgb(187, 241, 122);
+    color: rgb(180, 237, 111);
     text-shadow:
     -1px -1px 0 #000,
     1px -1px 0 #000,
@@ -409,12 +418,12 @@ section.cms-boxes .cms-boxes-outer {
     margin-top: 100px;
 }
  #welcome{
-    color:rgb(187, 241, 122);
-    text-shadow:
+    color:#E651B7;
+    /* text-shadow:
     -1px -1px 0 #000,
     1px -1px 0 #000,
     -1px 1px 0 #000,
-    1px 1px 0 #000;
+    1px 1px 0 #000; */
 }
 
 #homeContent{
