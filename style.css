@@ -351,7 +351,7 @@ section.cms-boxes .cms-boxes-outer {
 }
 
 .aboutContent span{
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 .aboutContent h3{
@@ -368,9 +368,6 @@ section.cms-boxes .cms-boxes-outer {
 
 #greeting{
     font-size: 2em;
-}
-.aboutContent span:hover{
-    cursor: pointer;
 }
 
 /* END ABOUT ME */
